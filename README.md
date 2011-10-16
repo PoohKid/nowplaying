@@ -17,10 +17,8 @@ The Twitter application supported is as follows.
 - Echofon for Twitter
 
 ## 1.1
-Localizationに日本語を追加。  
-テキストの編集の「選択」「全選択」「ペースト」などのメニュー表記が日本語になりました。
-
-iOS5にて日本語キーボードの予測変換バーで操作パネルが隠れてしまう問題を修正しました。
+* iOS5にて日本語キーボードの予測変換バーで操作パネルが隠れてしまう問題を修正しました。
+* ローカライズ対応しました。テキストの編集の「選択」「全選択」「ペースト」などのメニュー表記が日本語で表示されるようになります。
 
 ## Metadata
 + Primary Category
