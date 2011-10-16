@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<dict>
+			<key>ApplicationId</key>
+			<string>Twitter for iPhone</string>
+			<key>ApplicationName</key>
+			<string>Twitter for iPhone</string>
+			<key>URLScheme</key>
+			<string>twitter://post?message=%@</string>
+		</dict>
+		<dict>
+			<key>ApplicationId</key>
+			<string>Echofon for Twitter</string>
+			<key>ApplicationName</key>
+			<string>Echofon for Twitter</string>
+			<key>URLScheme</key>
+			<string>echofon:///message/?%@</string>
+		</dict>
+	</array>
+</dict>
+</plist>
