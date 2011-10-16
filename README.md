@@ -1,26 +1,19 @@
 # nowplaying
-*en/ja: #nowplaying tw*  
+*nowplaying投稿をサポートするTwitterユーティリティです。*
 
-## Description
-"#nowplaying tw" は再生中の音楽を取得して#nowplaying投稿用の文字列を表示します。  
-Twitterアプリケーションと連携して投稿画面を呼び出すことが出来ますので、日頃お使いのTwitterアプリケーションから#nowplayingを投稿できます。
+## 特徴
+メジャーなTwitterアプリケーションにはnowplaying機能をサポートしていないものがある。  
+そこでnowplaying取得部分だけを提供し、既存のTwitterアプリケーションと連携することで使い慣れたTwitterアプリケーションからnowplaying投稿を可能とする。
 
-対応しているTwitterアプリケーションは以下の通りです。  
-- Twitter for iPhone  
-- Echofon for Twitter
-
-"#nowplaying tw" displays the music currently listened to.  
-The contents can be tweeted from the Twitter application of your regular use. 
-
-The Twitter application supported is as follows.  
-- Twitter for iPhone  
-- Echofon for Twitter
-
-## 1.1
-* iOS5にて日本語キーボードの予測変換バーで操作パネルが隠れてしまう問題を修正しました。
-* ローカライズ対応しました。テキストの編集の「選択」「全選択」「ペースト」などのメニュー表記が日本語で表示されるようになります。
-
-* support iOS5.
+## 機能
+* 再生中の音楽を取得
+    * アプリケーションを起動すると自動的に再生中の音楽を取得してnowplaying投稿用の文字列を表示します。
+    * アプリケーションがバックグラウンドから復帰した時も自動的に再生中の音楽を取得します。
+    * リロード機能で任意のタイミングで再生中の音楽を取得できます。
+* Twitter連携
+    * 設定画面から連携するTwitterアプリケーションを選択できます。
+    * ツイートボタンを押すと連携するTwitterアプリケーションの投稿画面が開きます。
+* Twitter連携ができない場合クリップボードにコピーすることができます。
 
 ## Metadata
 + Primary Category
